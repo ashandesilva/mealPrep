@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtIngredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingredient" />
+
+    <Button
+        android:id="@+id/btnSearchByIngr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve Meals"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnToDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save meals to Database"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/outputAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="36dp"/>
+
+
+</LinearLayout>
